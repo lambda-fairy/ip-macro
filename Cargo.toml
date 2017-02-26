@@ -1,0 +1,7 @@
+[package]
+name = "ip-macro"
+version = "0.1.0"
+authors = ["Chris Wong <lambda.fairy@gmail.com>"]
+
+[lib]
+plugin = true
