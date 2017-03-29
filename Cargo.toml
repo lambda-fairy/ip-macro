@@ -10,8 +10,8 @@ description = "Macros for writing literal IP addresses"
 categories = ["network-programming", "rust-patterns"]
 
 [dependencies]
-quote = "*"
-syn = "*"
+quote = "0.3.15"
+syn = "0.11.9"
 
 [lib]
 proc-macro = true
