@@ -1,6 +1,6 @@
 #![feature(proc_macro)]
 
-/// Macros for writing IP addresses.
+/// Macros for writing literal IP addresses.
 ///
 /// This crate provides three macros:
 ///

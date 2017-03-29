@@ -1,6 +1,9 @@
 # ip-macro
 
-Macros for writing IP addresses.
+[![Build status](https://api.travis-ci.org/lfairy/ip-macro.svg)](https://travis-ci.org/lfairy/ip-macro)
+[![Cargo](https://img.shields.io/crates/v/ip-macro.svg)](https://crates.io/crates/ip-macro)
+
+Macros for writing literal IP addresses.
 
 See <https://github.com/rust-lang/rfcs/issues/1926> for the background behind this crate.
 
@@ -8,7 +11,7 @@ See <https://github.com/rust-lang/rfcs/issues/1926> for the background behind th
 
 This crate uses the recently implemented [procedural macros] feature, and so requires a nightly version of the compiler.
 
-If you use [rustup][] (recommended), then you can install Rust Nightly using [these instructions][nightly howto].
+If you use [rustup][] (recommended), then you can install Rust nightly using [these instructions][nightly howto].
 
 [procedural macros]: https://github.com/rust-lang/rust/issues/38356
 [rustup]: https://rustup.rs/

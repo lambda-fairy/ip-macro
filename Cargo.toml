@@ -6,7 +6,7 @@ authors = ["Chris Wong <lambda.fairy@gmail.com>"]
 license = "MIT/Apache-2.0"
 documentation = "https://docs.rs/ip-macro"
 repository = "https://github.com/lfairy/ip-macro"
-description = "Macros for writing IP addresses"
+description = "Macros for writing literal IP addresses"
 categories = ["network-programming", "rust-patterns"]
 
 [dependencies]
