@@ -1,30 +1,32 @@
 #![feature(proc_macro)]
 
-/// Macros for writing literal IP addresses.
-///
-/// This crate provides three macros:
-///
-/// * `ip!()`
-/// * `ipv4!()`
-/// * `ipv6!()`
-///
-/// All of these take a single argument: a string literal representing an IP
-/// address. `ipv4!()` and `ipv6!()` return an `Ipv4Addr` and `Ipv6Addr`,
-/// respectively. `ip!()` parses a generic `IpAddr`, which can be either an IPv4
-/// or an IPv6 address.
-///
-/// # Example
-///
-/// ```rust
-/// #![feature(proc_macro)]  // <- Don't forget this!
-///
-/// extern crate ip_macro;
-/// use ip_macro::ip;
-///
-/// fn main() {
-///     println!("There's no place like {}", ip!("127.0.0.1"));
-/// }
-/// ```
+//! Macros for writing literal IP addresses.
+//!
+//! # Example
+//!
+//! ```rust
+//! #![feature(proc_macro)]  // <- Don't forget this!
+//!
+//! extern crate ip_macro;
+//! use ip_macro::ip;
+//!
+//! fn main() {
+//!     println!("There's no place like {}", ip!("127.0.0.1"));
+//! }
+//! ```
+//!
+//! # Overview
+//!
+//! This crate provides three macros:
+//!
+//! * `ip!()`
+//! * `ipv4!()`
+//! * `ipv6!()`
+//!
+//! All of these take a single argument: a string literal representing an IP
+//! address. `ipv4!()` and `ipv6!()` return an `Ipv4Addr` and `Ipv6Addr`,
+//! respectively. `ip!()` parses a generic `IpAddr`, which can be either an IPv4
+//! or an IPv6 address.
 
 extern crate proc_macro;
 #[macro_use]
